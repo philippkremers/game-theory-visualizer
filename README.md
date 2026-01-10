@@ -1,24 +1,44 @@
-# game_theory_and_philosophy
+# Game Theory Visualizer
 
-## Project setup
+A tool for demonstrating game-theoretical concepts through interactive payoff matrices. I used this tool in my own classes on social and political philosophy at Georgetown University. I hope it can also be useful to other instructors and students.
+
+You can see a [live demonstration](https://www.philippkremers.com/game-theory-visualizer) here.
+
+## Technical Details
+
+This tool is a single-page application (SPA) designed for client-side interaction only. This approach allows for easy deployment and minimal server requirements: the app can run entirely as static files on any web server.
+
+It is built with Vue 3 and Vite and uses Vue Router with hash-based routing to ensure compatibility across different hosting environments.
+
+## Installation
+
+1. Clone the repository.
+
+```sh
+git clone https://github.com/philippkremers/game-theory-visualizer.git
+cd game-theory-visualizer
 ```
+
+2. Install dependencies.
+
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Compile and Hot-Reload for Development
+
+```sh
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
+Afterwards, you can open your browser at the URL displayed in the terminal (usually http://localhost:5173) to see the app live during development.
+
+### Compile for Deployment
+
+To generate static files for deployment:
+
+```sh
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The compiled files will be placed in the dist/ folder. Because this is a pure client-side SPA, you can deploy them on any static web server.

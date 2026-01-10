@@ -24,7 +24,7 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 
 .switch {
     transform: translateY(-6px);
@@ -32,6 +32,7 @@ export default {
     display: inline-block;
     width: 100px;
     height: 34px;
+    margin: 0 20px;
 }
 
 .switch input {

@@ -1,5 +1,5 @@
 <template>
-    <div id="wrapper">
+    <div class="payoff-matrix-wrapper">
         <table class="payoff-matrix">
             <tbody>
                 <tr>
@@ -276,9 +276,9 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 
-#wrapper {
+.payoff-matrix-wrapper {
     font-size: 12pt;
     margin: 0 0 20px 0;
 }
