@@ -33,7 +33,7 @@ npm run dev
 
 Afterwards, you can open your browser at the URL displayed in the terminal (usually http://localhost:5173) to see the app live during development.
 
-### Compile for Deployment
+## Compile for Deployment
 
 To generate static files for deployment:
 
