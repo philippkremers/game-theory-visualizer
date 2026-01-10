@@ -35,10 +35,13 @@ Afterwards, you can open your browser at the URL displayed in the terminal (usua
 
 ## Compile for Deployment
 
+If you do not plan to host this project from the domain root, but from a subdirectory (e.g., `/game-theory-visualizer/`), you must set the correct base path in `vite.config.js`.
+
 To generate static files for deployment:
 
 ```sh
 npm run build
 ```
 
-The compiled files will be placed in the dist/ folder. Because this is a pure client-side SPA, you can deploy them on any static web server.
+The compiled files will be placed in the `dist/` folder. Because this is a pure client-side SPA, you can deploy them on any static web server.
+

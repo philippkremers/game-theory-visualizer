@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/', // adjust this line if you intend to serve from a subdirectory (e.g., /game-theory-visualizer/)
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
