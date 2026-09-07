@@ -16,7 +16,7 @@ Clone repository and install dependencies:
 
 ```sh
 git clone https://github.com/philippkremers/gt-visualizer.git
-cd game-theory-visualizer
+cd gt-visualizer
 npm install
 ```
 
